@@ -1,0 +1,36 @@
+{
+  "name": "glob-move",
+  "version": "1.0.0",
+  "description": "NodeJS library used to move files and directories using glob patterns",
+  "main": "index.js",
+  "dependencies": {
+    "es6-promisify": "^5.0.0",
+    "glob": "*",
+    "glob-promise": "*",
+    "mv": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikatun/glob-move.git"
+  },
+  "keywords": [
+    "glob",
+    "move",
+    "glob-move",
+    "move-content",
+    "content",
+    "recursive",
+    "fs",
+    "directory"
+  ],
+  "author": "Ivo Katunaric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikatun/glob-move/issues"
+  },
+  "homepage": "https://github.com/ikatun/glob-move#readme"
+}
