@@ -1,6 +1,6 @@
 {
   "name": "glob-move",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NodeJS library used to move files and directories using glob patterns",
   "main": "index.js",
   "dependencies": {
