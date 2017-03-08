@@ -11,7 +11,7 @@ module.exports = function(srcPattern, destDir, globOptions) {
   return glob(srcPattern, globOptions)
     .then(paths => paths.map(path => {
       copiedPaths = paths;
-      return mv(path, path.join(destDir, basename(path)), { mkdirp: true });
+      return mv(path, join(destDir, basename(path)), { mkdirp: true });
     }))
     .then(p => Promise.all(p))
     .then(() => copiedPaths);
